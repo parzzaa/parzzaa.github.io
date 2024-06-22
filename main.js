@@ -19,4 +19,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Retrieve user data and display it
 const img = WebApp.initDataUnsafe.user;
-document.getElementById('user-photo').innerHTML = img.photo_url;
+document.getElementById('user-photo').src = img.photo_url;
