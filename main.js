@@ -16,3 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const user = WebApp.initDataUnsafe.user;
     document.getElementById('user-info').innerText = `Hello, ${user.first_name}!`;
 });
+
+// Retrieve user data and display it
+const img = WebApp.initDataUnsafe.user;
+document.getElementById('user-photo').image = img.photo_url;
